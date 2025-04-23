@@ -1,5 +1,6 @@
+package Classes.Leetcode.Leetcode75;
+
 public class CompressString {
-    
     public int compress(char[] chars){
         int length=chars.length;
 

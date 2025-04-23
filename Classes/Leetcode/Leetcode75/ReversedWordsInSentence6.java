@@ -1,3 +1,5 @@
+package Classes.Leetcode.Leetcode75;
+
 public class ReversedWordsInSentence6 {
     String reversedstring(String str){
         // String reversedstr;

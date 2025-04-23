@@ -25,9 +25,9 @@
         "pickerGroup.foreground": "#752ae4",
         "list.activeSelectionBackground": "#681DD74d",
         "panelTitle.activeBorder": "#752ae4",
-        "activityBar.background": "#3C2A0C",
-        "titleBar.activeBackground": "#543B11",
-        "titleBar.activeForeground": "#FDF9F4"
+        "activityBar.background": "#1F3219",
+        "titleBar.activeBackground": "#2C4723",
+        "titleBar.activeForeground": "#F7FBF6"
     },
-    "window.title": "Leetcode"
+    "window.title": "LeetCode"
 }

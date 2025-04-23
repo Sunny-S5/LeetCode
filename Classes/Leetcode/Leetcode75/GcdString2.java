@@ -1,3 +1,5 @@
+package Classes.Leetcode.Leetcode75;
+
 public class GcdString2 {
     public int gcdint(int a,int b){
         while(b!=0){
@@ -16,16 +18,5 @@ public class GcdString2 {
         gcdstr=str1.substring(0,gcdlength);
         System.out.println("gcd string is :"+gcdstr);
         return gcdstr;
-    }
-    public static void main(String[] args) {
-        GcdString2 obj=new GcdString2();
-        String gcdstring="";
-        String a="ABCABC",b="ABC";
-        obj.gcdstr(a,b);
-        System.out.println("Gcdstring is : "+gcdstring);
-
-        // int gcd=0;
-        // gcd=obj.gcdint(96,48);
-        // System.out.println("gcd integer is :"+gcd);
     }
 }

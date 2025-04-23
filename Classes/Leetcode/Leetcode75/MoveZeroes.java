@@ -1,4 +1,4 @@
-
+package Classes.Leetcode.Leetcode75;
 import java.util.Arrays;
 
 
@@ -15,11 +15,5 @@ public class MoveZeroes {
         }
         System.out.println(Arrays.toString(nums));
       }
-    }
-    public static void main(String[] args) {
-        MoveZeroes obj=new MoveZeroes();
-        int[] nums={1,0,0,1,2};
-        obj.moveZeroes(nums);
-
     }
 }

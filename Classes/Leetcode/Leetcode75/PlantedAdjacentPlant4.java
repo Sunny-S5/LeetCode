@@ -1,4 +1,4 @@
-
+package Classes.Leetcode.Leetcode75;
 public class PlantedAdjacentPlant4 {
 
     public boolean canPlaceFlowers(int[] flowerbed, int n) {

@@ -1,5 +1,7 @@
+
+package Classes.Leetcode.Leetcode75;
+
 public class Example {
-    
     public static boolean isPal(String str){
         if(str.length()==0){
             return false;
@@ -13,9 +15,4 @@ public class Example {
         }
         return Pal.equals(newStr);
     }
-
-    public static void main(String[] args) {
-        System.out.println(" newStr is : "+isPal("A man, a plan, a canal, Panama"));
-    }
-
 }

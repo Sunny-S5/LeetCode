@@ -1,4 +1,4 @@
-package Top150Questions;
+package Classes.Leetcode.Top150InterviewPrograms;
 import java.util.Arrays;
 
 public class RemoveDuplicatestwo {
@@ -12,8 +12,5 @@ public class RemoveDuplicatestwo {
         }
         System.out.println(Arrays.toString(Arrays.copyOf(nums,k)));
         return k;
-    }
-    public static void main(String[] args) {
-     System.out.println(removeDuplicates(new int[] {1,1,1,2,2,2,2}));   
     }
 }

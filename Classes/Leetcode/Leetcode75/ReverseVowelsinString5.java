@@ -1,4 +1,4 @@
-
+package Classes.Leetcode.Leetcode75;
 
 public class ReverseVowelsinString5 {
     public String reversedVowelsString(String str){

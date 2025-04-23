@@ -1,4 +1,4 @@
-package Top150Questions;
+package Classes.Leetcode.Top150InterviewPrograms;
 
 public class DuplicateElementsOne {
     public static int removeDuplicatesone(int[] nums) {
@@ -10,8 +10,5 @@ public class DuplicateElementsOne {
         }
      }
      return k;
-    }
-     public static void main(String[] args) {
-    System.out.println(removeDuplicatesone(new int[] {1,1,1,2,2,2,2}));   
     }
 }

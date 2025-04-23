@@ -1,3 +1,5 @@
+package Classes.Leetcode.Leetcode75;
+
 class increasingTriplet {
     public boolean increasingtriplet(int[] nums) {
         int first = Integer.MAX_VALUE;
@@ -13,12 +15,5 @@ class increasingTriplet {
             }
         }
         return false;
-    }
-    public static void main(String[] args) {
-        int arr[]={5,6,7,6,5};
-        boolean hasTriplet=false;
-        increasingTriplet obj=new increasingTriplet();
-        hasTriplet=obj.increasingtriplet(arr);
-        System.out.println(hasTriplet);
     }
 }

@@ -1,3 +1,5 @@
+package Classes.Leetcode.Leetcode75;
+
 public class AlternateString1 {
     public String gcdOfStrings(String str1, String str2) {
         String str="";
@@ -7,11 +9,5 @@ public class AlternateString1 {
             }
         }
         return str;
-    }
-
-    public static void main(String[] args) {
-        AlternateString1 as = new AlternateString1();
-        String merged = as.gcdOfStrings("ABCABC", "ABC");
-        System.out.println("Merged String: " + merged);  
     }
 }

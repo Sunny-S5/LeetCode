@@ -1,3 +1,4 @@
+package Classes.Leetcode.Leetcode75;
 import java.util.*;
 
 public class KidCandies3 {

@@ -1,5 +1,4 @@
-package Top150Questions;
-
+package Classes.Leetcode.Top150InterviewPrograms;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,8 +26,5 @@ public class MajorityElement {
             }
         }
         return maxFreqEle;
-    }
-    public static void main(String[] args) {
-        System.out.println(majorityElement(new int[] {1,2,2,2,2,1,1}));
     }
 }
