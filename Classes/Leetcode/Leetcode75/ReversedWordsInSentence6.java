@@ -12,11 +12,4 @@ public class ReversedWordsInSentence6 {
         // reversedstr=String.join(" ", newarray);
         return new String(String.join(" ",newarray));
     }
-    public static void main(String[] args) {
-        ReversedWordsInSentence6 obj=new ReversedWordsInSentence6();
-        // System.out.println("output is :"+"hello world");
-        String str;
-        str=obj.reversedstring("  java script is very fantastic language ");
-        System.out.println("output is :"+str);
-    }
 }

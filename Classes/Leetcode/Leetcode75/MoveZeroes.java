@@ -1,7 +1,6 @@
 package Classes.Leetcode.Leetcode75;
 import java.util.Arrays;
 
-
 public class MoveZeroes {
     public void moveZeroes(int[] nums){
         int index=0;

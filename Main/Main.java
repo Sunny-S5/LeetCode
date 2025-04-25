@@ -1,10 +1,11 @@
 package Main;
-import Classes.*;
-import Classes.Leetcode.Top150InterviewPrograms.MaxProfit;
+import Classes.Leetcode.Top150InterviewPrograms.*;
 
 public class Main{
     public static void main(String[] args) {
-      MaxProfit obj=new MaxProfit();
-      obj.maxProfit(new int[]{7,1,5,3,6,4});
+    Hindex obj=new Hindex();
+     int hindex;
+     hindex=obj.hIndex(new int[] {1,3,1});
+     System.out.println("hindex :"+hindex);
     }
 }

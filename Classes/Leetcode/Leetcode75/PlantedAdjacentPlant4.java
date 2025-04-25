@@ -20,14 +20,5 @@ public class PlantedAdjacentPlant4 {
         }
         return isPlanted;
     }
-
-    public static void main(String[] args) {
-        PlantedAdjacentPlant4 obj = new PlantedAdjacentPlant4();
-        int[] flowerbed = {1,0,0,0,1};
-        int n = 1;
-        boolean isPlanted = false;
-        isPlanted = obj.canPlaceFlowers(flowerbed, n);
-        System.out.println("values is: " + isPlanted);
-    }
 }
 

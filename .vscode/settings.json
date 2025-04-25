@@ -24,10 +24,7 @@
         "tab.activeBorderTop": "#752ae4",
         "pickerGroup.foreground": "#752ae4",
         "list.activeSelectionBackground": "#681DD74d",
-        "panelTitle.activeBorder": "#752ae4",
-        "activityBar.background": "#1F3219",
-        "titleBar.activeBackground": "#2C4723",
-        "titleBar.activeForeground": "#F7FBF6"
+        "panelTitle.activeBorder": "#752ae4"
     },
     "window.title": "LeetCode"
 }

@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#08351B",
+        "titleBar.activeBackground": "#0B4A26",
+        "titleBar.activeForeground": "#F0FDF6"
+    },
+    "window.title": "Leetcode"
+}

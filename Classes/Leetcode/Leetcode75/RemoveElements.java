@@ -14,7 +14,4 @@ public class RemoveElements{
         System.out.println(Arrays.toString(Arrays.copyOf(nums,k)));
         return k;
     }
-    public static void main(String[] args) {
-        System.out.println(removeElement(new int [] {3,2,2,3},3));
-    }
 }

@@ -25,10 +25,4 @@ public class ReverseVowelsinString5 {
         }
         return new String(charr);
     }
-    public static void main(String[] args) {
-        ReverseVowelsinString5 obj=new ReverseVowelsinString5();
-        String str="leetcode",newStr="";
-        newStr=obj.reversedVowelsString(str);
-        System.out.println("newString is :"+newStr);
-    }
 }

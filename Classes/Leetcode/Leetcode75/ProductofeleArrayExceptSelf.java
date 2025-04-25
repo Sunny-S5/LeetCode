@@ -1,30 +1,3 @@
-// import java.util.Arrays;
-
-// public class ProductofeleArrayExceptSelf {
-
-//     int[] productofelementArray(int[] nums) {
-//         int[] newArray = new int[nums.length];
-        
-//         int productOfAll = 1;
-//         for (int i = 0; i < nums.length; i++) {
-//             productOfAll *= nums[i];
-//         }
-
-//         for (int i = 0; i < nums.length; i++) {
-//             newArray[i] = productOfAll / nums[i];
-//         }
-
-//         return newArray;
-//     }
-
-//     public static void main(String[] args) {
-//         int[] array = { -1,1,0,-3,3 };
-//         ProductofeleArrayExceptSelf obj = new ProductofeleArrayExceptSelf();
-//         int[] newArray = obj.productofelementArray(array);
-//         System.out.println(Arrays.toString(newArray));
-//     }
-// }
-
 package Classes.Leetcode.Leetcode75;
 import java.util.Arrays;
 
@@ -48,12 +21,5 @@ public class ProductofeleArrayExceptSelf {
         }
 
         return result;
-    }
-
-    public static void main(String[] args) {
-        int[] array = { -1, 1, 0, -3, 3 };
-        ProductofeleArrayExceptSelf obj = new ProductofeleArrayExceptSelf();
-        int[] newArray = obj.productofelementArray(array);
-        System.out.println(Arrays.toString(newArray)); // Output should be [-0, 0, 9, 0, 0]
     }
 }

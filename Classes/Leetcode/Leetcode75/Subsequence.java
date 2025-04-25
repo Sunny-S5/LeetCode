@@ -18,9 +18,4 @@ public class Subsequence {
        }
        return i==j;
     }
-    public static void main(String[] args) {
-        Subsequence obj=new Subsequence();
-        boolean isSub=obj.isSubsequence("abc", "absqec");
-        System.out.println(isSub);
-    }
 }
